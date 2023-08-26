@@ -1,0 +1,18 @@
+.conatiner {
+  max-width: 1700px;
+  margin: 40px auto;
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  margin-top: 70px;
+}
+
+@media screen and (width<800px) {
+  .list_container {
+    flex-direction: column;
+  }
+}

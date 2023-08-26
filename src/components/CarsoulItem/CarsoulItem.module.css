@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-transform: capitalize;
+  font-family: "Roboto";
+  background-color: rgba(240, 240, 240, 0.9);
+
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.content img {
+  width: 37px;
+  height: 37px;
+  object-fit: cover;
+}
+.content span {
+  text-align: center;
+  font-size: small;
+  margin-top: 4px;
+}
+
+.content:hover {
+  transform: scale(1.2, 1.2);
+  border-radius: 22px;
+}
